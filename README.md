@@ -18,6 +18,9 @@ A plan for Python teaching
 5. TESTING
 4.1. What is TDD
 4.2. Pytest
+
+   https://docs.pytest.org/en/7.1.x/index.html
+   
    4.2.1. Installation
    4.2.2. Folders organization
 
@@ -47,7 +50,11 @@ app
    4.2.3. Simple tests
    4.2.4. Exception catching
 
-https://docs.pytest.org/en/7.1.x/index.html
+4.3. Pytest-cov
+
+pytest-cov for test coverage
+
+
 
 ===
 Project folder structure
