@@ -4,22 +4,32 @@ A plan for Python teaching
 0. Git, GitHub
    0.1. GitHub Registration
 
-1. 
+https://git-scm.com/book/ru/v2
+https://learngitbranching.js.org/?locale=ru_RU -- интерактивный учебник по Git
 
+2. Virtual environment
+
+Альтернатива -- Poetry
+   https://habr.com/ru/articles/593529/comments/
    
-3. IDE
+4. IDE
    1.1. MS Visual Studio Code
    1.1.1. Installation
    1.1.2.
    
-4. TODO LIST
+5. TODO LIST
    3.1.
    
-5. TESTING
+6. TESTING
 4.1. What is TDD
+
+$${\color{red}VERY USEFUL}$$
+   http://web.archive.org/web/20111010053227/http://jaynes.colorado.edu/PythonGuidelines.html#module_formatting
+   
 4.2. Pytest
 
    https://docs.pytest.org/en/7.1.x/index.html
+   https://realpython.com/pytest-python-testing/
    
    4.2.1. Installation
    4.2.2. Folders organization
