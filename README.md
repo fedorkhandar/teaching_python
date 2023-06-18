@@ -15,6 +15,8 @@ GitHub Registration
 
 https://learngitbranching.js.org/?locale=ru_RU -- интерактивный учебник по Git
 
+https://www.toptal.com/developers/gitignore/api/visualstudiocode,python
+
 ### Sources
 
 https://git-scm.com/book/ru/v2
