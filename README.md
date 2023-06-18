@@ -1,80 +1,147 @@
-# teaching_python
-A plan for Python teaching
+# A plan for Python teaching
 
-0. Git, GitHub
-   0.1. GitHub Registration
+# Python3 development. Module 1. IDE and stuff
 
-https://git-scm.com/book/ru/v2
+## 1. Git
+
+### Theory
+
+Version control.
+What is Git, what is Github?
+
+### Practice
+
+GitHub Registration
+
 https://learngitbranching.js.org/?locale=ru_RU -- интерактивный учебник по Git
 
-2. Virtual environment
+### Sources
 
-Альтернатива -- Poetry
-   https://habr.com/ru/articles/593529/comments/
+https://git-scm.com/book/ru/v2
+
+## 2. Python. The language
+
+### Theory
+
+It is Python3.
+Interpretation.
+Syntax.
+
+import ..., from ... import ...
+
+Class. 
+folder structure
+`def __init__()
+
+### Practice
+
+http://pythontutor.ru
+
+Something interactive 'bout OOP in Python
+
+### Sources
+
+## 3. Python. Standards, PEP
+
+### Theory
+
+What is PEP
+
+### Practice
+
+Linters (flake8), code formatters (Black)
+
+### Sources
+
+http://web.archive.org/web/20111010053227/http://jaynes.colorado.edu/PythonGuidelines.html#module_formatting
+
+## 4. Libraries, dependencies, requirements
+
+### Theory
+
+Virtual environment
+
+### Practice
+
+Poetry
+
+## 5. Questions
+
+https://stackoverflow.com
+https://phind.com
+https://bard.google.com
+https://you.com/
+
+## 6. Test Driven Development
+
+### Theory
+
+Why testing?
+
+### Practice
+
+Pytest
+
+### Sources
+
+https://www.youtube.com/watch?v=YbpKMIUjvK8 -- Учебное пособие по модульному тестированию Pytest • Как протестировать код Python [pixegami]
+https://realpython.com/pytest-python-testing/
+http://web.archive.org/web/20111010053227/http://jaynes.colorado.edu/PythonGuidelines.html#module_formatting
+
+## 7. IDE
+
+### Theory
+
+IDE and Editors
+
+Visual Studio Code, PyCharm
+
+### Practice
+
+https://code.visualstudio.com/docs/python/
    
-4. IDE
-   1.1. MS Visual Studio Code
-   1.1.1. Installation
-   1.1.2.
-   
-5. TODO LIST
-   3.1.
-   
-6. TESTING
-4.1. What is TDD
+## 8. IDE and tests
 
-$${\color{red}VERY USEFUL}$$
-   http://web.archive.org/web/20111010053227/http://jaynes.colorado.edu/PythonGuidelines.html#module_formatting
-   
-4.2. Pytest
+https://www.youtube.com/watch?v=ucjRpS7WCPA -- Pytest | Visual Studio Code [Dr. Pi]
+https://www.youtube.com/watch?v=UMgxJvozR5A -- Introductory Tutorial on Unit Testing Python Functions with Pytest, Visual Studio Code, Command-line [Kris Jordan]
 
-   https://docs.pytest.org/en/7.1.x/index.html
-   https://realpython.com/pytest-python-testing/
-   
-   4.2.1. Installation
-   4.2.2. Folders organization
+## 9. IDE advanced
 
-Use a separate folder for tests. This will help to keep your test code separate from your application code, making it easier to maintain and run your tests.
-Use a consistent naming convention for your test files and folders. This will make it easier to find and run your tests.
-Organize your tests by feature or functionality. This will help to keep your tests organized and make it easier to run specific sets of tests.
-Use pytest fixtures to share data and state between tests. This will help to make your tests more reusable and efficient.
-Use pytest markers to identify different types of tests. This will help you to run specific sets of tests, such as unit tests or integration tests.
-Use a test runner to run your tests. This will help you to run your tests in a consistent and repeatable way.
+Snippets and so on 
 
-app
-├── main
-│   ├── __init__.py
-│   └── views.py
-├── static
-│   ├── css
-│   ├── js
-│   └── images
-└── tests
-    ├── unit
-    │   ├── __init__.py
-    │   └── tests.py
-    └── integration
-        ├── __init__.py
-        └── tests.py
-        
-   4.2.3. Simple tests
-   4.2.4. Exception catching
+# Python3 development. Module 2. Asynchronous, multithreading and multiprocessing programming
 
-4.3. Pytest-cov
+## 1. Multiprocessing and multithreading 
 
-pytest-cov for test coverage
+## 2. Multiprocessing patterns
 
+barrier, producer-consumer etc
 
+## 3. Multithreading
 
-===
-Project folder structure
-Git, Github
-IDE (Visual Studio Code)
-TODO-lists
-Testing
+## 4. Asynchronous
 
+Asyncio
 
-# Links
+# Python3 development. Module 3. Databases, SQL
 
-https://docs.pylenium.io/ -- library for testing "Bring the best of Selenium, Cypress and Python into one package."
+## 1. SQL
+
+http://sql-ex.ru
+
+## 2. database management systems
+
+SQLite
+PostgreSQL
+
+# Python3 development. Module 4. Object-oriented programming in Python
+
+Why OOP
+Own class for working with AsyncPG 
+
+# Python3 development. Module 5. Web and database application project
+
+## 1. Networking. REST API. Aiohttp, requests, paramiko
+
+## 2. FastAPI
 
